@@ -1,117 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Bootstrap Bundle-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
-    <!--My CSS-->
-    <link rel="stylesheet" href="src/css/style.css">
-    <!--Title-->
-    <title>Keis Smit</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap Bundle-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <!--Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <!--My CSS-->
+  <link rel="stylesheet" href="src/css/style.css">
+  <!--Title-->
+  <title>Keis Smit</title>
 </head>
+
 <body>
   <!--Nav Bar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              My Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <h6 class="ps-2">Code Institute</h6>
+              <li><a class="dropdown-item" href="https://keisgsmit.github.io/Milestone1/"
+                  target="_blank">Covid-Comfort</a></li>
+              <li><a class="dropdown-item" href="https://keisgsmit.github.io/Milestone2/" target="_blank">Hearthstone
+                  Memory</a></li>
+              <li><a class="dropdown-item" href="https://keis5ingredientsfoods.herokuapp.com/" target="_blank">5 Minute
+                  Foods</a></li>
+              <li><a class="dropdown-item" href="https://operation-gym.herokuapp.com/"
+                  target="_blank">Operation:Gym;</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  My Projects
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <h6 class="ps-2">Code Institute</h6>
-                  <li><a class="dropdown-item" href="https://keisgsmit.github.io/Milestone1/" target="_blank">Covid-Comfort</a></li>
-                  <li><a class="dropdown-item" href="https://keisgsmit.github.io/Milestone2/" target="_blank">Hearthstone Memory</a></li>
-                  <li><a class="dropdown-item" href="https://keis5ingredientsfoods.herokuapp.com/" target="_blank">5 Minute Foods</a></li>
-                  <li><a class="dropdown-item" href="https://operation-gym.herokuapp.com/" target="_blank">Operation:Gym;</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <h6 class="ps-2">Personal Projects</h6>
-                  <li><a class="dropdown-item" href="#">OG Dave</a></li>
-                  <li><a class="dropdown-item" href="#">LGBTQ+ Podcast</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+              <h6 class="ps-2">Personal Projects</h6>
+              <li><a class="dropdown-item" href="#">OG Dave</a></li>
+              <li><a class="dropdown-item" href="#">LGBTQ+ Podcast</a></li>
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!--Landing page-->
-    <div class="px-4 pt-5 text-center border-bottom parallax-landing ">
-        <h1 class="display-4 fw-bold text-white">Keis Smit - Developer</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mt-2 mb-4 text-white">Certified Full Stack Developer specialist.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 text-end">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"> <i class="fas fa-paper-plane"></i> Book a meeting</button>
-            <button type="button" class="btn btn-primary btn-lg px-4"><i class="fas fa-phone-alt"></i> Contact me</button>
-          </div>
-        </div>
+  <div class="px-4 pt-5 text-center border-bottom parallax-landing ">
+    <h1 class="display-4 fw-bold text-white">Keis Smit - Developer</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mt-2 mb-4 text-white">Certified Full Stack Developer specialist.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 text-end">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"> <i class="fas fa-paper-plane"></i> Book a
+          meeting</button>
+        <button type="button" class="btn btn-primary btn-lg px-4"><i class="fas fa-phone-alt"></i> Contact me</button>
       </div>
+    </div>
+  </div>
   <!--Content-->
-    <!--About me-->
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center my-5">
-          <h1>About Me</h1>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 text-center">
-          <h3><i class="fas fa-heartbeat"></i> My Passion</h3>
-          <p>Coding has always been my passion since I was a early teen. I took up Coding as a starting point to learn how to hack. Later in my life I realised it is more important to build up, than it is to break down. Since then Software Development has been my core focus</p>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 text-center">
-          <h3><i class="fas fa-arrow-alt-circle-up"></i> My Drive</h3>
-          <p>I envision a world of simplicity governed by complexity. Modern Technology has already embedded itself into World History, So why try to stop that from happening? Encourage the use of Technology in your life and never stop learning.</p>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 text-center">
-          <h3><i class="fas fa-book-reader"></i> My Ethics</h3>
-          <p>Privacy and Security rule over my open mind. I believe every person is entitled to their own privacy and the security that protects them should not be challenge. Every byte of data is sacred to every person.</p>
-        </div>
+  <!--About me-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center my-5">
+        <h1>About Me</h1>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 text-center">
+        <h3><i class="fas fa-heartbeat"></i> My Passion</h3>
+        <p>Coding has always been my passion since I was a early teen. I took up Coding as a starting point to learn how
+          to hack. Later in my life I realised it is more important to build up, than it is to break down. Since then
+          Software Development has been my core focus</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 text-center">
+        <h3><i class="fas fa-arrow-alt-circle-up"></i> My Drive</h3>
+        <p>I envision a world of simplicity governed by complexity. Modern Technology has already embedded itself into
+          World History, So why try to stop that from happening? Encourage the use of Technology in your life and never
+          stop learning.</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 text-center">
+        <h3><i class="fas fa-book-reader"></i> My Ethics</h3>
+        <p>Privacy and Security rule over my open mind. I believe every person is entitled to their own privacy and the
+          security that protects them should not be challenge. Every byte of data is sacred to every person.</p>
       </div>
     </div>
-    <!--Second Parallax-->
-    <div class="px-4 pt-5 text-center border-bottom parallax1 ">
-      <h1 class="display-4 fw-bold text-white">Find a Solution</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mt-2 mb-4 text-white">It is better to have tried to Improve and fail, than it is to sit back and let failure define you. </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 text-end">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"> <i class="fas fa-paper-plane"></i> Book a meeting</button>
-          <button type="button" class="btn btn-primary btn-lg px-4"><i class="fas fa-phone-alt"></i> Contact me</button>
-        </div>
+  </div>
+  <!--Second Parallax-->
+  <div class="px-4 pt-5 text-center border-bottom parallax1 ">
+    <h1 class="display-4 fw-bold text-white">Find a Solution</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mt-2 mb-4 text-white">It is better to have tried to Improve and fail, than it is to sit back and
+        let failure define you. </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 text-end">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"> <i class="fas fa-paper-plane"></i> Book a
+          meeting</button>
+        <button type="button" class="btn btn-primary btn-lg px-4"><i class="fas fa-phone-alt"></i> Contact me</button>
       </div>
     </div>
-    <!--Footer-->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-4 text-center">
-            <h3>Social</h3>
-          </div>
-          <div class="col-12 col-sm-12 col-md-4 text-center">
-            <h3>Learn More About my work</h3>
-          </div>
-          <div class="col-12 col-sm-12 col-md-4 text-center">
-            <h3>OMG</h3>
-          </div>
+  </div>
+  <!--Footer-->
+  <!-- <div class="footer-clean"> -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row justify-content-center bg-dark text-light bg-gradient">
+        <div class="col-12 col-sm-12 col-md-6 text-center my-5">
+          <h3>Learn More About my work</h3>
         </div>
+        <div class="item col-12 col-sm-12 col-md-6 text-center my-5">
+          <h3>Social</h3>
+          <a href="https://github.com/KeisGSmit?tab=repositories"><i class="fab fa-github fs-3"></i></a>
+          <a href="https://www.linkedin.com/in/keis-smit-developer/"><i class="fab fa-linkedin fs-3"></i></a>
+        </div>
+
       </div>
-    </footer>
-    
+    </div>
+  </footer>
+  <!-- </div> -->
 </body>
 <!--My JS file-->
 <script src="src/js/script.js"></script>
+
 </html>
