@@ -1,3 +1,25 @@
+/*------------------------------------------------------------------------------------------Landing page*/
+.title {
+  display: inline-block;
+  position: relative;
+}
+.title:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.title:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
 
 /*------------------------------------------------------------------------------------------Parallax landing page*/
 .parallax-landing {
@@ -21,6 +43,7 @@
   
   /* Set a specific height */
   min-height: 200px;
+  height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -30,6 +53,7 @@
 }
 
 /*--------------------------------------------------------------------------Footer*/
+
 .footer-clean {
   padding-bottom: 10px;
   background-color: #fff;
